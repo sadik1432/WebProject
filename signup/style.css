@@ -1,0 +1,66 @@
+.container {
+  border: 2px solid white;
+  box-shadow: 3px 3px 4px gray;
+  background:white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 50px 40%;
+}
+h1{
+  text-align: center;
+}
+input[type="text"],input[type="email"],input[type="email"],input[type="password"]{
+  padding: 5px;
+  width: 90%;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  border-style:none;
+  box-shadow: 1px 1px 2px gray;
+  display: block;
+  border: none;
+  outline: none;
+  height: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 4px;
+}
+.align,label{
+  padding-left: 4px;
+  color:#cc00cc;
+  font-weight: bold;
+  font-size: 20px;
+}
+.clearfix{
+  text-align: center;
+}
+.cancelbtn{
+  margin-right: 20px;
+  background-color: red;
+  border:none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color:white;
+  box-shadow: 1px 1px 2px gray;
+}
+.signupbtn{
+  argin-right: 20px;
+  background-color: green;
+  border:none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color:white;
+  box-shadow: 1px 1px 2px gray;
+}
+input:hover{
+  transform: scale(1.05);
+  background-color:rgb(219, 202, 202);
+}
+.imground{
+  box-shadow: 1px 1px 2px gray;
+  height: 50px;
+  padding: 2px;
+  margin:6px;
+  border-radius: 50%;
+}
+.other{
+  text-align: center;
+}
